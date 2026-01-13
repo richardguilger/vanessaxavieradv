@@ -476,6 +476,19 @@ header nav {
     border-radius: 4px;
     transition: var(--transition);
     border: 1px solid transparent;
+    position: relative;
+}
+
+.service-card.featured {
+    background-color: var(--color-white);
+    border-color: rgba(172, 94, 53, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    transform: scale(1.02);
+    z-index: 1;
+}
+
+.service-card.featured h3 {
+    color: var(--color-primary);
 }
 
 .service-card:hover {
@@ -483,6 +496,11 @@ header nav {
     border-color: var(--color-primary);
     background-color: #fff;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.service-main-text {
+    font-weight: 500;
+    color: var(--color-secondary);
 }
 
 .service-icon {
