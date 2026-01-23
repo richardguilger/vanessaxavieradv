@@ -55,6 +55,7 @@ h1 span {
     font-family: var(--font-subheading);
     font-style: italic;
     color: var(--color-primary);
+    font-weight: 700;
 }
 
 p {
