@@ -864,4 +864,36 @@ footer {
         width: 24px;
         height: 24px;
     }
+}/* Re-applying Shared Button Styles to fix missing class */
+.btn-whatsapp-gradient {
+    background: linear-gradient(90deg, #25D366 0%, #128C7E 100%);
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-whatsapp-gradient:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 30px rgba(18, 140, 126, 0.4);
+    color: #ffffff;
+}
+
+.btn-whatsapp-gradient svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
 }
