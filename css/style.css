@@ -593,33 +593,7 @@ header nav {
     align-items: center;
 }
 
-.btn-whatsapp-float {
-    background: var(--color-white);
-    color: var(--color-primary);
-    padding: 25px 50px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    border-radius: 100px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-    transition: var(--transition);
-    width: 100%;
-    max-width: 350px;
-}
-
-.btn-whatsapp-float:hover {
-    background: #fdfdfd;
-    transform: translateY(-8px);
-    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
-}
-
-.btn-whatsapp-float svg {
-    width: 24px;
-    height: 24px;
-}
+/* Old button styles removed */
 
 .cta-contact-list {
     margin-top: 40px;
@@ -835,7 +809,9 @@ footer {
     .purpose-header .section-title {
         font-size: 2.5rem;
     }
-}/* Floating WhatsApp Button (CSS Implementation) */
+}
+
+/* Floating WhatsApp Button (CSS Implementation) */
 .whatsapp-float-btn {
     position: fixed;
     bottom: 30px;
