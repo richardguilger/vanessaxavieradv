@@ -1,14 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Force scroll to top on reload to ensure "carregar no topo"
-    window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-    };
-
-    if ('scrollRestoration' in history) {
-        history.scrollRestoration = 'manual';
-    }
-    window.scrollTo(0, 0);
-
     // Register GSAP plugins
     gsap.registerPlugin(ScrollTrigger);
 
